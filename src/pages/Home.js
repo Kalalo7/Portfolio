@@ -8,7 +8,7 @@ import 'prismjs/components/prism-javascript';
 
 const HomeContainer = styled.div`
   min-height: 100vh;
-  padding: 0 2rem;
+  padding: 6rem 2rem 0; /* Aumentado el padding-top a 6rem */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -119,6 +119,14 @@ const SocialLinksContainer = styled.div`
   bottom: 3rem;
   right: 3rem;
   z-index: 3;
+  
+  @media (max-width: 768px) {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    margin-top: 3rem;
+    justify-content: center;
+  }
 `;
 
 const SocialLink = styled(motion.a)`
@@ -160,7 +168,7 @@ const Home = () => {
       'Git',
       'AI Integration'
     ],
-
+    
     expertise: {
       aiTools: [
         'ChatGPT',
@@ -168,6 +176,21 @@ const Home = () => {
         'Midjourney'
       ],
       focus: 'Integración de IAs generativas en el desarrollo'
+    },
+    
+    softSkills: [
+      'Trabajo en equipo',
+      'Adaptabilidad',
+      'Resolución de problemas',
+      'Comunicación efectiva',
+      'Pensamiento crítico',
+      'Gestión del tiempo'
+    ],
+    
+    languages: {
+      native: ['Castellano', 'Catalán'],
+      fluent: ['Inglés'],
+      basic: ['Portugués']
     },
 
     passion: 'Crear aplicaciones web innovadoras y funcionales',
@@ -190,7 +213,7 @@ const Home = () => {
       setCode(initialCode.slice(0, index));
       index++;
       if (index > initialCode.length) clearInterval(timer);
-    }, 50);
+    }, 15); 
     return () => clearInterval(timer);
   }, [initialCode]);
 

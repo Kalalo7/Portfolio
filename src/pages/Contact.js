@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser';
 
 const ContactContainer = styled.div`
   min-height: 100vh;
-  padding: 100px 2rem;
+  padding: 6rem 2rem 2rem; /* Aumentado el padding-top a 6rem */
   display: flex;
   flex-direction: column;
   align-items: center;

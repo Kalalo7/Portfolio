@@ -4,7 +4,7 @@ import ProjectCard from '../components/ProjectCard';
 
 const ProjectsContainer = styled.div`
   min-height: 100vh;
-  padding: 100px 2rem;
+  padding: 6rem 2rem 2rem; /* Aumentado el padding-top a 6rem */
 `;
 
 const ProjectsGrid = styled.div`
