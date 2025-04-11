@@ -40,6 +40,13 @@ const TechContainer = styled.div`
 const Projects = () => {
   const projectsList = [
     {
+      title: "QueVer - Movie Recommendation App",
+      description: "Aplicación de recomendación de películas desarrollada con Next.js 14, TypeScript y Tailwind CSS. Permite a los usuarios descubrir películas basadas en sus preferencias.",
+      link: "https://github.com/Kalalo7/QueVer",
+      demoLink: "https://quever-kalalo7s.vercel.app/",
+      technologies: ["TypeScript", "Next.js 14", "Tailwind CSS", "React", "RESTful APIs"]
+    },
+    {
       title: "Portfolio Personal",
       description: "Portfolio interactivo desarrollado con React y Framer Motion. Cuenta con animaciones fluidas, diseño responsivo y una interfaz moderna inspirada en editores de código.",
       link: "https://github.com/Kalalo7/portfolio",

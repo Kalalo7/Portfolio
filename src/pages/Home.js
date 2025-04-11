@@ -76,6 +76,18 @@ const Subtitle = styled(motion.h2)`
   color: ${props => props.theme.colors.secondary};
   margin-bottom: 2rem;
   font-family: 'Courier New', monospace;
+  
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
+  
+  @media (max-width: 576px) {
+    font-size: 1.5rem;
+  }
+  
+  @media (max-width: 400px) {
+    font-size: 1.2rem;
+  }
 `;
 
 const Description = styled(motion.div)`
@@ -157,8 +169,11 @@ const Home = () => {
     role: 'Desarrollador Full Stack',
 
     skills: [
+      'TypeScript',
       'JavaScript',
       'React',
+      'Next.js 14',
+      'Tailwind CSS',
       'Python',
       'Java',
       'HTML5',
@@ -166,7 +181,8 @@ const Home = () => {
       'Bootstrap',
       'Firebase',
       'Git',
-      'AI Integration'
+      'RESTful APIs'
+      'AI Integration',
     ],
     
     expertise: {
@@ -197,8 +213,9 @@ const Home = () => {
     github: 'https://github.com/Kalalo7',
 
     projects: {
-      total: 8,
+      total: 9,
       highlights: [
+        'QueVer - Movie Recommendation App' 
         'Portfolio',
         'Pokédex',
         'MyShop',
