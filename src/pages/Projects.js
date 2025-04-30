@@ -47,6 +47,20 @@ const Projects = () => {
       technologies: ["TypeScript", "Next.js 14", "Tailwind CSS", "React", "RESTful APIs"]
     },
     {
+      title: "PhasmoDex",
+      description: "Guía interactiva para Phasmophobia que ayuda a los streamers y jugadores a identificar fantasmas. Incluye todas las evidencias, fortalezas y debilidades de cada entidad.",
+      link: "https://github.com/Kalalo7/phasmodex",
+      demoLink: "https://phasmodex.vercel.app/",
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "React"]
+    },
+    {
+      title: "REPOdex",
+      description: "Guía completa para el juego R.E.P.O (2025 Horror) con sistema de búsqueda avanzado para bosses y objetos. Incluye información detallada, estrategias y consejos.",
+      link: "https://github.com/Kalalo7/Repodex",
+      demoLink: "https://repodex.vercel.app/",
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "React"]
+    },
+    {
       title: "Portfolio Personal",
       description: "Portfolio interactivo desarrollado con React y Framer Motion. Cuenta con animaciones fluidas, diseño responsivo y una interfaz moderna inspirada en editores de código.",
       link: "https://github.com/Kalalo7/portfolio",
